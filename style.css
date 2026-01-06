@@ -1,0 +1,40 @@
+body {
+margin: 0;
+height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;
+background: linear-gradient(135deg, #3b1d0f, #7a3e1d);
+font-family: Anton, sans-serif;
+}
+
+.zone {
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 26px;
+}
+
+.zone img {
+width: 500px;
+max-width: 85%;
+border-radius: 20px;
+box-shadow: 0 32px 90px rgba(0,0,0,0.65);
+}
+
+.label {
+text-align: center;
+color: #f5e6d3;
+}
+
+.label h1 {
+margin: 0;
+font-size: 60px;
+letter-spacing: 3px;
+}
+
+.label p {
+margin-top: 6px;
+font-size: 22px;
+opacity: 0.9;
+}
